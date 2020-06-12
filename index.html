@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="src/styles/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-form">
+            <input type="text" name="phrase_input" class="input phrase-input" />
+            <div class="radio-block">
+                <div>
+                    <input type="radio" name="phrase_radio" id="r1" value="horizontal" checked
+                        class="radio phrase-radio-horizontal">
+                    <label for="r1"> > HORIZONTAL BLOCK</label>
+                </div>
+                <div>
+                    <input type="radio" name="phrase_radio" id="r2" value="vertical"
+                        class="radio phrase-radio-vertical">
+                    <label for="r2"> > VERTICAL BLOCK</label>
+                </div>
+            </div>
+            <div class="actions">
+                <button class="button generate-button">
+                    > Generate
+                </button>
+                <button class="button button-save save-button">
+                    Save <
+                </button>
+            </div>
+        </div>
+        <div class="result" id="resultImg">
+            <span class="aalt-1">П</span><span class="aalt-2">И</span><span class="aalt-3">Ш</span><span
+                class="aalt-4">И</span><span class="aalt-1">Д</span><span class="aalt-2">А</span><span
+                class="aalt-3">В</span><span class="aalt-4">А</span><span class="aalt-4">Й</span>
+        </div>
+    </div>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
